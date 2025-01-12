@@ -8,13 +8,7 @@
 ## Common config
 locals {
     mydomain    = "${yamldecode(file("config.yaml")).baseconfig.common.mydomain}"
-    ingressip = "${yamldecode(file("config.yaml")).baseconfig.common.ingressip}"
 }
-variable "docker-desktop" {
-    description = "enable = true & disable = false"
-    type        = bool
-    default     = true
-} 
 
 ## Kubernetes config 
 variable "certmgr" {
