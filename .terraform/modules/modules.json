@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"certmgr","Source":"./cert-manager","Dir":"cert-manager"},{"Key":"k8s_cluster","Source":"./k8s-cluster","Dir":"k8s-cluster"}]}
